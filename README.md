@@ -40,15 +40,13 @@ To enable users to control electronic devices through automatic hand gestures, p
 
 ## 🧾 Arduino Code
 
-The Arduino sketch is located in the `main.ino` file. Upload it using Arduino IDE.
+The Arduino sketch is located in the `hand_gesture_system.ino` file. Upload it using Arduino IDE.
 
 ---
 
 ## 📊 Block Diagram / Flowchart
 
 ![Flowchart](assets/flowchart.png)
-
-_(Replace with actual image in assets folder)_
 
 ---
 
@@ -70,7 +68,7 @@ An IoT-based gesture-controlled switch promotes contactless interaction, ideal f
 ## 📁 Project Structure
 
 ```
-Smart-Gesture-Controlled-Switch/
+smart-gesture-controlled-switch/
 ├── main.ino
 ├── README.md
 ├── assets/
