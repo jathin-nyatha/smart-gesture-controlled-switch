@@ -1,0 +1,39 @@
+# Ignore Arduino build files
+*.hex
+*.elf
+*.bin
+*.eep
+*.map
+*.d
+*.dep
+*.out
+*.a
+*.o
+
+# Mac and Windows OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arduino IDE metadata
+*.ino.cpp
+*.sdf
+*.opensdf
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.idea/
+*.vscode/
+
+# Backup files
+*.bak
+*.tmp
+*~
+
+# Sketch build and temporary folders
+build/
+temp/
+cache/
+
+# Optional: Ignore PPTX/docs if not versioning it
+# docs/
