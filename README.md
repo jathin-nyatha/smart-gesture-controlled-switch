@@ -1,24 +1,24 @@
-# 🔌 Smart Gesture-Controlled Switch System using IoT
+# Smart Gesture-Controlled Switch System using IoT
 
-## 🎯 Objective
+## Objective
 
 To enable users to control electronic devices through automatic hand gestures, providing a convenient and hands-free interface for managing various functionalities.
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
-- 👋 **Gesture Input**:
+- **Gesture Input**:
   - UP → Turn ON devices
   - DOWN → Turn OFF devices
   - LEFT/RIGHT → Toggle individual relays
-- 🔁 **Relay Control**: Relays activate/deactivate appliances based on gesture detection.
-- 📟 **LCD Feedback**: Displays current gesture status.
-- 🔊 **Buzzer**: Emits sound when gesture is detected.
+- **Relay Control**: Relays activate/deactivate appliances based on gesture detection.
+- **LCD Feedback**: Displays current gesture status.
+- **Buzzer**: Emits sound when gesture is detected.
 
 ---
 
-## 🧰 Hardware Requirements
+## Hardware Requirements
 
 | Component        | Description                |
 | ---------------- | -------------------------- |
@@ -30,7 +30,7 @@ To enable users to control electronic devices through automatic hand gestures, p
 
 ---
 
-## 💻 Software Requirements
+## Software Requirements
 
 - Arduino IDE
 - [Adafruit_APDS9960 Library](https://github.com/adafruit/Adafruit_APDS9960)
@@ -38,19 +38,19 @@ To enable users to control electronic devices through automatic hand gestures, p
 
 ---
 
-## 🧾 Arduino Code
+## Arduino Code
 
 The Arduino sketch is located in the `hand_gesture_system.ino` file. Upload it using Arduino IDE.
 
 ---
 
-## 📊 Block Diagram / Flowchart
+## Block Diagram / Flowchart
 
 ![Flowchart](assets/flowchart.png)
 
 ---
 
-## ✅ Result
+## Result
 
 - **Upward Gesture** ➜ All appliances **ON**
 - **Downward Gesture** ➜ All appliances **OFF**
@@ -59,13 +59,13 @@ The Arduino sketch is located in the `hand_gesture_system.ino` file. Upload it u
 
 ---
 
-## 🏁 Conclusion
+## Conclusion
 
 An IoT-based gesture-controlled switch promotes contactless interaction, ideal for smart homes. It's practical, eco-friendly, and enhances safety.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 smart-gesture-controlled-switch/
